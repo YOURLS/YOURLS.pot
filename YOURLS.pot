@@ -1,0 +1,130 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: YOURLS 1.6\n"
+"POT-Creation-Date: 2013-02-03 23:32+0100\n"
+"PO-Revision-Date: 2013-02-03 23:34+0100\n"
+"Last-Translator: Ozh <ozh[at]ozh.org>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: yourls__;yourls_e;yourls_esc_attr__;yourls_esc_html__;"
+"yourls_x;yourls_ex;yourls_esc_attr_x;yourls_esc_html_x;yourls_n;yourls_nx;"
+"yourls_n_noop;yourls_nx_noop\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/index.php:212
+#, php-format
+msgid ""
+"Display <strong>%d</strong> to <strong class=\"increment\">%d</strong> of "
+"<strong class=\"increment\">%d</strong> URLs"
+msgstr ""
+
+#: admin/index.php:212
+msgid "counting"
+msgstr ""
+
+#: admin/index.php:212
+msgid "click"
+msgstr ""
+
+#: admin/index.php:214
+#, php-format
+msgid ""
+"Overall, tracking <strong class=\"increment\">%d</strong> links, <strong>%d</"
+"strong> clicks, and counting!"
+msgstr ""
+
+#: admin/index.php:275
+msgid "No URL"
+msgstr ""
+
+#: includes/functions-html.php:226
+msgid "page"
+msgstr ""
+
+#: includes/functions-html.php:234 includes/functions-html.php:248
+msgid "Go to First Page"
+msgstr ""
+
+#: includes/functions-html.php:264
+msgid "Your short link"
+msgstr ""
+
+#: includes/functions-html.php:266
+msgid "Quick Share"
+msgstr ""
+
+#: includes/functions-html.php:371
+msgid "Error, URL not found"
+msgstr ""
+
+#: includes/functions-html.php:401
+msgid "Stats"
+msgstr ""
+
+#: includes/functions-html.php:407
+msgid "Share"
+msgstr ""
+
+#: includes/functions-html.php:414
+msgid "Edit"
+msgstr ""
+
+#: includes/functions-html.php:421
+msgid "Delete"
+msgstr ""
+
+#: includes/functions-html.php:499
+msgid "Short URL&nbsp;"
+msgstr ""
+
+#: includes/functions-html.php:500
+msgid "Original URL"
+msgstr ""
+
+#: includes/functions-html.php:501
+msgid "Date"
+msgstr ""
+
+#: includes/functions-html.php:502
+msgid "IP"
+msgstr ""
+
+#: includes/functions-html.php:503
+msgid "Clicks&nbsp;&nbsp;"
+msgstr ""
+
+#: includes/functions-html.php:504
+msgid "Actions"
+msgstr ""
+
+#: includes/functions-html.php:578
+msgid "Hello"
+msgstr ""
+
+#: includes/functions-html.php:578
+msgid "Logout"
+msgstr ""
+
+#: includes/functions-html.php:582
+msgid "Help"
+msgstr ""
+
+#: includes/functions-html.php:589
+msgid "Go to the admin interface"
+msgstr ""
+
+#: includes/functions-html.php:590
+msgid "Admin interface"
+msgstr ""
+
+#: includes/functions-html.php:596
+msgid "Tools"
+msgstr ""
+
+#: includes/functions-html.php:600
+msgid "Manage Plugins"
+msgstr ""
