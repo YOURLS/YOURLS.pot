@@ -19,7 +19,7 @@ YOURLS uses the following set of functions to translate strings:
 
 If you want to generate a .pot file for YOURLS, you'll need to configure your software (eg PoEdit) with these strings
 
-![poedit keywords](https://raw.github.com/yourls/yourls/screenshots/poedit-strings.png)
+![poedit keywords](https://raw.github.com/yourls/yourls.pot/screenshots/poedit-strings.png)
 
 ### Awesome! How do I create my own translations?
 
