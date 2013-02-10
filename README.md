@@ -4,22 +4,24 @@ This is the official YOURLS .pot file to generate and maintain your own translat
 
 ## Source keywords
 
-YOURLS uses the following set of functions to translate strings:
+If you want to generate a .pot file for YOURLS, you'll need to configure your software (eg PoEdit) with these strings, which are the functions used in YOURLS translation API
 
 * `yourls__`
 * `yourls_e`
+* `yourls_s`
+* `yourls_se`
 * `yourls_esc_attr__`
 * `yourls_esc_html__`
 * `yourls_x`
 * `yourls_ex`
 * `yourls_esc_attr_x`
 * `yourls_esc_html_x`
-* `yourls_n`
-* `yourls_nx`
+* `yourls_n:1,2`
+* `yourls_nx:1,2`
+* `yourls_n_noop:1,2`
+* `yourls_nx_noop:1,2`
 
-If you want to generate a .pot file for YOURLS, you'll need to configure your software (eg PoEdit) with these strings
-
-![poedit keywords](https://raw.github.com/yourls/yourls/screenshots/poedit-strings.png)
+![poedit keywords](https://raw.github.com/yourls/yourls.pot/screenshots/poedit-strings.png)
 
 ### Awesome! How do I create my own translations?
 
