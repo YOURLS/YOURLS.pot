@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: YOURLS 1.6\n"
-"POT-Creation-Date: 2013-02-10 22:30+0100\n"
-"PO-Revision-Date: 2013-02-10 22:30+0100\n"
+"POT-Creation-Date: 2013-02-10 23:03+0100\n"
+"PO-Revision-Date: 2013-02-10 23:03+0100\n"
 "Last-Translator: Ozh <ozh[at]ozh.org>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -127,7 +127,7 @@ msgstr ""
 msgid "Year %s"
 msgstr ""
 
-#: yourls-infos.php:409
+#: yourls-infos.php:409 yourls-infos.php:447
 #, php-format
 msgid "1 hit"
 msgid_plural "%s hits"
@@ -260,11 +260,7 @@ msgid ""
 msgstr ""
 
 #: admin/index.php:223
-msgid "counting"
-msgstr ""
-
-#: admin/index.php:223
-msgid "click"
+msgid "counting <strong>1</strong> click"
 msgstr ""
 
 #: admin/index.php:226
@@ -329,14 +325,18 @@ msgstr ""
 msgid "Plugins"
 msgstr ""
 
-#: admin/plugins.php:71
-msgid "plugin"
-msgstr ""
+#: admin/plugins.php:70
+#, php-format
+msgid "%s plugin"
+msgid_plural "%s plugins"
+msgstr[0] ""
+msgstr[1] ""
 
+#. //translators: "you have '3 plugins' installed and '1' activated"
 #: admin/plugins.php:74
 #, php-format
 msgid ""
-"You currently have <strong>%d</strong> installed, and <strong>%d</strong> "
+"You currently have <strong>%s</strong> installed, and <strong>%s</strong> "
 "activated"
 msgstr ""
 
@@ -772,8 +772,11 @@ msgid "Clear"
 msgstr ""
 
 #: includes/functions-html.php:267
-msgid "page"
-msgstr ""
+#, php-format
+msgid "1 page"
+msgid_plural "%s pages"
+msgstr[0] ""
+msgstr[1] ""
 
 #: includes/functions-html.php:275 includes/functions-html.php:289
 msgid "Go to First Page"
