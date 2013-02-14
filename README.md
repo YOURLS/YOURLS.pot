@@ -18,6 +18,7 @@ To check your translation file and load it in YOURLS:
 3. Add `define( 'YOURLS_LANG', 'pt_BR' )` to your `config.php`
 4. That’s it! Play with YOURLS
 
+See the [related blog post](http://blog.yourls.org/2013/02/yourls-1-6-translators-wanted/)
 
 ## How to generate a .po/.pot file ?
 
