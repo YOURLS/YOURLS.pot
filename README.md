@@ -43,6 +43,8 @@ If you want to generate a `.pot` file for YOURLS, you'll need to configure your 
 
 ![poedit keywords](https://raw.github.com/yourls/yourls.pot/screenshots/poedit-strings.png)
 
+Configure also the parser to include comments for translators. In Poedit: File, Preferences, Parsers, PHP : edit and in the `Parser command` add parameter `--add-comments=/`
+
 
 #### Thanks to
 [LeoColomb](https://github.com/LeoColomb) - L10n was a low priority feature but he threw his patch at my face :)
