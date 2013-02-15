@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: YOURLS 1.6\n"
-"POT-Creation-Date: 2013-02-10 23:03+0100\n"
-"PO-Revision-Date: 2013-02-10 23:03+0100\n"
-"Last-Translator: Ozh <ozh[at]ozh.org>\n"
+"POT-Creation-Date: 2013-02-15 10:07+0100\n"
+"PO-Revision-Date: 2013-02-15 10:08+0100\n"
+"Last-Translator: Ozh <ozh@ozh.org>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Poedit 1.5.5\n"
 "X-Poedit-KeywordsList: yourls__;yourls_e;yourls_s;yourls_se;"
 "yourls_esc_attr__;yourls_esc_html__;yourls_x;yourls_ex;yourls_esc_attr_x;"
 "yourls_esc_html_x;yourls_n:1,2;yourls_nx:1,2;yourls_n_noop:1,2;"
@@ -255,8 +255,8 @@ msgstr ""
 #: admin/index.php:221
 #, php-format
 msgid ""
-"Display <strong>%d</strong> to <strong class=\"increment\">%d</strong> of "
-"<strong class=\"increment\">%d</strong> URLs"
+"Display <strong>%s</strong> to <strong class=\"increment\">%s</strong> of "
+"<strong class=\"increment\">%s</strong> URLs"
 msgstr ""
 
 #: admin/index.php:223
@@ -266,11 +266,11 @@ msgstr ""
 #: admin/index.php:226
 #, php-format
 msgid ""
-"Overall, tracking <strong class=\"increment\">%d</strong> links, <strong>%d</"
+"Overall, tracking <strong class=\"increment\">%s</strong> links, <strong>%s</"
 "strong> clicks, and counting!"
 msgstr ""
 
-#: admin/index.php:287
+#: admin/index.php:286
 msgid "No URL"
 msgstr ""
 
@@ -636,31 +636,31 @@ msgstr ""
 msgid "Go back to <a href=\"%s\">the admin interface</a>"
 msgstr ""
 
-#: includes/functions-auth.php:15
+#: includes/functions-auth.php:18
 msgid "Logged out successfully"
 msgstr ""
 
-#: includes/functions-auth.php:81
+#: includes/functions-auth.php:84
 msgid "Invalid username or password"
 msgstr ""
 
-#: includes/functions-auth.php:83
+#: includes/functions-auth.php:86
 msgid "Please log in"
 msgstr ""
 
-#: includes/functions-auth.php:107
+#: includes/functions-auth.php:116
 msgid ""
 "<strong>Notice</strong>: your password is stored as clear text in your "
 "<tt>config.php</tt>"
 msgstr ""
 
-#: includes/functions-auth.php:108
+#: includes/functions-auth.php:117
 msgid ""
 "Did you know you can easily improve the security of your YOURLS install by "
 "<strong>encrypting</strong> your password?"
 msgstr ""
 
-#: includes/functions-auth.php:109
+#: includes/functions-auth.php:118
 msgid ""
 "See <a href=\"http://yourls.org/userpassword\">UsernamePassword</a> for "
 "details"
@@ -904,21 +904,21 @@ msgstr ""
 msgid "Tools"
 msgstr ""
 
-#: includes/functions-install.php:213
+#: includes/functions-install.php:243
 #, php-format
 msgid "Table '%s' created."
 msgstr ""
 
-#: includes/functions-install.php:215
+#: includes/functions-install.php:245
 #, php-format
 msgid "Error creating table '%s'."
 msgstr ""
 
-#: includes/functions-install.php:231
+#: includes/functions-install.php:261
 msgid "YOURLS tables successfully created."
 msgstr ""
 
-#: includes/functions-install.php:233
+#: includes/functions-install.php:263
 msgid "Error creating YOURLS tables."
 msgstr ""
 
@@ -1218,63 +1218,63 @@ msgstr ""
 msgid "Invalid link"
 msgstr ""
 
-#: includes/functions.php:362
+#: includes/functions.php:409
 msgid "DB config missing, or could not find DB class"
 msgstr ""
 
-#: includes/functions.php:362 includes/functions.php:371
+#: includes/functions.php:409 includes/functions.php:418
 msgid "Fatal error"
 msgstr ""
 
-#: includes/functions.php:625
+#: includes/functions.php:723
 #, php-format
 msgid ""
 "if you are not redirected after 10 seconds, please <a href=\"%s\">click "
 "here</a>"
 msgstr ""
 
-#: includes/functions.php:633
+#: includes/functions.php:731
 #, php-format
 msgid "Please <a href=\"%s\">click here</a>"
 msgstr ""
 
-#: includes/functions.php:1074
+#: includes/functions.php:1235
 msgid "Too many URLs added too fast. Slow down please."
 msgstr ""
 
-#: includes/functions.php:1074
+#: includes/functions.php:1235
 msgid "Forbidden"
 msgstr ""
 
-#: includes/functions.php:1316
+#: includes/functions.php:1512
 msgid "Unauthorized action or expired link"
 msgstr ""
 
-#: includes/functions.php:1316
+#: includes/functions.php:1512
 msgid "Error"
 msgstr ""
 
-#: includes/functions.php:1636
+#: includes/functions.php:1895
 msgid "Service temporarily unavailable"
 msgstr ""
 
-#: includes/functions.php:1637
+#: includes/functions.php:1896
 msgid "Our service is currently undergoing scheduled maintenance."
 msgstr ""
 
-#: includes/functions.php:1638
+#: includes/functions.php:1897
 msgid ""
 "Things should not last very long, thank you for your patience and please "
 "excuse the inconvenience"
 msgstr ""
 
-#: includes/functions.php:1758
+#: includes/functions.php:2017
 #, php-format
 msgid ""
 "%1$s is <strong>deprecated</strong> since version %2$s! Use %3$s instead."
 msgstr ""
 
-#: includes/functions.php:1760
+#: includes/functions.php:2019
 #, php-format
 msgid ""
 "%1$s is <strong>deprecated</strong> since version %2$s with no alternative "
