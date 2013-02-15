@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: YOURLS 1.6\n"
-"POT-Creation-Date: 2013-02-15 10:07+0100\n"
-"PO-Revision-Date: 2013-02-15 10:08+0100\n"
+"POT-Creation-Date: 2013-02-15 15:33+0100\n"
+"PO-Revision-Date: 2013-02-15 15:34+0100\n"
 "Last-Translator: Ozh <ozh@ozh.org>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -442,62 +442,62 @@ msgid ""
 "tool box to make posting to Twitter, Facebook or Friendfeed a snap."
 msgstr ""
 
-#: admin/tools.php:31
+#: admin/tools.php:32
 msgid ""
 "If you want to share a description along with the link you're shortening, "
 "simply <span>select text</span> on the page you're viewing before clicking "
 "on your bookmarklet link"
 msgstr ""
 
-#: admin/tools.php:34
+#: admin/tools.php:35
 msgid "The Bookmarklets"
 msgstr ""
 
-#: admin/tools.php:36
+#: admin/tools.php:37
 msgid "Click and drag links to your toolbar (or right-click and bookmark it)"
 msgstr ""
 
-#: admin/tools.php:42
+#: admin/tools.php:43
 msgid "Standard (new page)"
 msgstr ""
 
-#: admin/tools.php:43
+#: admin/tools.php:44
 msgid "Instant (popup)"
 msgstr ""
 
-#: admin/tools.php:48
+#: admin/tools.php:49
 msgid "Simple"
 msgstr ""
 
-#: admin/tools.php:49 admin/tools.php:50 admin/tools.php:54 admin/tools.php:55
+#: admin/tools.php:50 admin/tools.php:51 admin/tools.php:55 admin/tools.php:56
 msgid "Drag to your toolbar!"
 msgstr ""
 
-#: admin/tools.php:49
+#: admin/tools.php:50
 msgid "Shorten"
 msgstr ""
 
-#: admin/tools.php:50
+#: admin/tools.php:51
 msgid "Instant Shorten"
 msgstr ""
 
-#: admin/tools.php:53
+#: admin/tools.php:54
 msgid "Custom Keyword"
 msgstr ""
 
-#: admin/tools.php:54
+#: admin/tools.php:55
 msgid "Custom shorten"
 msgstr ""
 
-#: admin/tools.php:55
+#: admin/tools.php:56
 msgid "Instant Custom Shorten"
 msgstr ""
 
-#: admin/tools.php:60
+#: admin/tools.php:61
 msgid "Prefix-n-Shorten"
 msgstr ""
 
-#: admin/tools.php:62
+#: admin/tools.php:63
 #, php-format
 msgid ""
 "When viewing a page, you can also prefix its full URL: just head to your "
@@ -505,79 +505,79 @@ msgid ""
 "current URL (right before its 'http://' part) and hit enter."
 msgstr ""
 
-#: admin/tools.php:65
+#: admin/tools.php:66
 msgid ""
 "Note: this will probably not work if your web server is running on Windows"
 msgstr ""
 
-#: admin/tools.php:67
+#: admin/tools.php:68
 msgid " (which seems to be the case here)"
 msgstr ""
 
-#: admin/tools.php:73
+#: admin/tools.php:74
 msgid "Secure passwordless API call"
 msgstr ""
 
-#: admin/tools.php:76
+#: admin/tools.php:77
 msgid ""
 "YOURLS allows API calls the old fashioned way, using <tt>username</tt> and "
 "<tt>password</tt> parameters."
 msgstr ""
 
-#: admin/tools.php:77
+#: admin/tools.php:79
 msgid ""
 "If you're worried about sending your credentials into the wild, you can also "
 "make API calls without using your login or your password, using a secret "
 "signature token."
 msgstr ""
 
-#: admin/tools.php:81
+#: admin/tools.php:83
 #, php-format
 msgid "Your secret signature token: <strong><code>%s</code></strong>"
 msgstr ""
 
-#: admin/tools.php:82
+#: admin/tools.php:84
 msgid "(It's a secret. Keep it secret) "
 msgstr ""
 
-#: admin/tools.php:85
+#: admin/tools.php:87
 msgid ""
 "This signature token can only be used with the API, not with the admin "
 "interface."
 msgstr ""
 
-#: admin/tools.php:88
+#: admin/tools.php:90
 msgid "Usage of the signature token"
 msgstr ""
 
-#: admin/tools.php:89
+#: admin/tools.php:91
 msgid "Simply use parameter <tt>signature</tt> in your API requests. Example:"
 msgstr ""
 
-#: admin/tools.php:93
+#: admin/tools.php:95
 msgid "Usage of a time limited signature token"
 msgstr ""
 
-#: admin/tools.php:96 admin/tools.php:98
+#: admin/tools.php:98 admin/tools.php:100
 msgid "actual value:"
 msgstr ""
 
-#: admin/tools.php:101
+#: admin/tools.php:103
 msgid ""
 "Now use parameters <tt>signature</tt> and <tt>timestamp</tt> in your API "
 "requests. Example:"
 msgstr ""
 
-#: admin/tools.php:103
+#: admin/tools.php:105
 msgid "Actual values:"
 msgstr ""
 
-#: admin/tools.php:105
+#: admin/tools.php:107
 #, php-format
 msgid "This URL would be valid for only %s seconds"
 msgstr ""
 
-#: admin/tools.php:109
+#: admin/tools.php:111
 #, php-format
 msgid "See the <a href=\"%s\">API documentation</a> for more"
 msgstr ""
@@ -1216,6 +1216,45 @@ msgstr ""
 
 #: includes/functions-plugins.php:539
 msgid "Invalid link"
+msgstr ""
+
+#: includes/functions.php:188
+msgid "Missing or malformed URL"
+msgstr ""
+
+#: includes/functions.php:202
+msgid "URL is a short URL"
+msgstr ""
+
+#: includes/functions.php:234
+#, php-format
+msgid "Short URL %s already exists in database or is reserved"
+msgstr ""
+
+#. //translators: eg "http://someurl/ added to DB"
+#: includes/functions.php:240 includes/functions.php:268
+#, php-format
+msgid "%s added to database"
+msgstr ""
+
+#. //translators: eg "http://someurl/ already exists"
+#: includes/functions.php:286
+#, php-format
+msgid "%s already exists in database"
+msgstr ""
+
+#: includes/functions.php:336
+msgid "Link updated in database"
+msgstr ""
+
+#. //translators: "Error updating http://someurl/ (Shorturl: http://sho.rt/blah)"
+#: includes/functions.php:339
+#, php-format
+msgid "Error updating %s (Short URL: %s)"
+msgstr ""
+
+#: includes/functions.php:345
+msgid "URL or keyword already exists in database"
 msgstr ""
 
 #: includes/functions.php:409
