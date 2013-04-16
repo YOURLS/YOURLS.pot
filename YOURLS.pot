@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: YOURLS 1.6\n"
-"POT-Creation-Date: 2013-03-27 23:02+0100\n"
-"PO-Revision-Date: 2013-03-27 23:02+0100\n"
+"POT-Creation-Date: 2013-04-16 16:10+0100\n"
+"PO-Revision-Date: 2013-04-16 16:10+0100\n"
 "Last-Translator: Ozh <ozh[at]ozh.org>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Poedit 1.5.5\n"
 "X-Poedit-KeywordsList: yourls__;yourls_e;yourls_s;yourls_se;"
 "yourls_esc_attr__;yourls_esc_html__;yourls_x;yourls_ex;yourls_esc_attr_x;"
 "yourls_esc_html_x;yourls_n:1,2;yourls_nx:1,2;yourls_n_noop:1,2;"
@@ -878,11 +878,11 @@ msgstr ""
 msgid "Tools"
 msgstr ""
 
-#: includes/functions-html.php:848
+#: includes/functions-html.php:845 includes/functions-html.php:850
 msgid "Today"
 msgstr ""
 
-#: includes/functions-html.php:849
+#: includes/functions-html.php:846 includes/functions-html.php:851
 msgid "Close"
 msgstr ""
 
@@ -1259,43 +1259,43 @@ msgstr ""
 msgid "Please <a href=\"%s\">click here</a>"
 msgstr ""
 
-#: includes/functions.php:1236
+#: includes/functions.php:1240
 msgid "Too many URLs added too fast. Slow down please."
 msgstr ""
 
-#: includes/functions.php:1236
+#: includes/functions.php:1240
 msgid "Forbidden"
 msgstr ""
 
-#: includes/functions.php:1513
+#: includes/functions.php:1517
 msgid "Unauthorized action or expired link"
 msgstr ""
 
-#: includes/functions.php:1513
+#: includes/functions.php:1517
 msgid "Error"
 msgstr ""
 
-#: includes/functions.php:1896
+#: includes/functions.php:1900
 msgid "Service temporarily unavailable"
 msgstr ""
 
-#: includes/functions.php:1897
+#: includes/functions.php:1901
 msgid "Our service is currently undergoing scheduled maintenance."
 msgstr ""
 
-#: includes/functions.php:1898
+#: includes/functions.php:1902
 msgid ""
 "Things should not last very long, thank you for your patience and please "
 "excuse the inconvenience"
 msgstr ""
 
-#: includes/functions.php:2018
+#: includes/functions.php:2022
 #, php-format
 msgid ""
 "%1$s is <strong>deprecated</strong> since version %2$s! Use %3$s instead."
 msgstr ""
 
-#: includes/functions.php:2020
+#: includes/functions.php:2024
 #, php-format
 msgid ""
 "%1$s is <strong>deprecated</strong> since version %2$s with no alternative "
