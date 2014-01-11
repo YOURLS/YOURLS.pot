@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: YOURLS 1.7\n"
-"POT-Creation-Date: 2014-01-10 13:37+0100\n"
-"PO-Revision-Date: 2014-01-10 13:37+0100\n"
+"POT-Creation-Date: 2014-01-11 11:50+0100\n"
+"PO-Revision-Date: 2014-01-11 11:51+0100\n"
 "Last-Translator: Ozh <ozh[at]ozh.org>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -391,55 +391,6 @@ msgid ""
 "\">Plugin list</a>."
 msgstr ""
 
-#: admin/profile.php:6 admin/profile.php:9
-msgid "User Profile"
-msgstr ""
-
-#: admin/profile.php:14
-msgid "Secure API"
-msgstr ""
-
-#: admin/profile.php:18
-msgid ""
-"YOURLS allows API calls the old fashioned way, using <code>username</code> "
-"and <code>password</code> parameters."
-msgstr ""
-
-#: admin/profile.php:20 admin/tools.php:98
-msgid ""
-"If you're worried about sending your credentials into the wild, you can also "
-"make API calls without using your login or your password, using a secret "
-"signature token."
-msgstr ""
-
-#: admin/profile.php:24
-#, php-format
-msgid "Your secret signature token: %s"
-msgstr ""
-
-#: admin/profile.php:26
-msgid "It's a secret. Keep it secret!"
-msgstr ""
-
-#: admin/profile.php:30 includes/functions-html.php:727
-msgid "Help"
-msgstr ""
-
-#: admin/profile.php:31 admin/tools.php:106
-msgid ""
-"This signature token can only be used with the API, not with the admin "
-"interface."
-msgstr ""
-
-#: admin/profile.php:34 admin/tools.php:109
-msgid "Usage of the signature token"
-msgstr ""
-
-#: admin/profile.php:36
-#, php-format
-msgid "Please refer to the <a href=\"%s\">online documentation</a>"
-msgstr ""
-
 #: admin/tools.php:6
 msgid "Cool YOURLS Tools"
 msgstr ""
@@ -589,6 +540,13 @@ msgid ""
 "<tt>password</tt> parameters."
 msgstr ""
 
+#: admin/tools.php:98
+msgid ""
+"If you're worried about sending your credentials into the wild, you can also "
+"make API calls without using your login or your password, using a secret "
+"signature token."
+msgstr ""
+
 #: admin/tools.php:102
 #, php-format
 msgid "Your secret signature token: <strong><code>%s</code></strong>"
@@ -596,6 +554,16 @@ msgstr ""
 
 #: admin/tools.php:103
 msgid "(It's a secret. Keep it secret) "
+msgstr ""
+
+#: admin/tools.php:106
+msgid ""
+"This signature token can only be used with the API, not with the admin "
+"interface."
+msgstr ""
+
+#: admin/tools.php:109
+msgid "Usage of the signature token"
 msgstr ""
 
 #: admin/tools.php:110
@@ -928,6 +896,10 @@ msgstr ""
 
 #: includes/functions-html.php:723 user/themes/full-bootstrap/theme.php:87
 msgid "Logout"
+msgstr ""
+
+#: includes/functions-html.php:727
+msgid "Help"
 msgstr ""
 
 #: includes/functions-html.php:734
@@ -1352,27 +1324,27 @@ msgstr ""
 msgid "Error"
 msgstr ""
 
-#: includes/functions.php:2054
+#: includes/functions.php:2064
 msgid "Service temporarily unavailable"
 msgstr ""
 
-#: includes/functions.php:2055
+#: includes/functions.php:2065
 msgid "Our service is currently undergoing scheduled maintenance."
 msgstr ""
 
-#: includes/functions.php:2056
+#: includes/functions.php:2066
 msgid ""
 "Things should not last very long, thank you for your patience and please "
 "excuse the inconvenience"
 msgstr ""
 
-#: includes/functions.php:2176
+#: includes/functions.php:2186
 #, php-format
 msgid ""
 "%1$s is <strong>deprecated</strong> since version %2$s! Use %3$s instead."
 msgstr ""
 
-#: includes/functions.php:2178
+#: includes/functions.php:2188
 #, php-format
 msgid ""
 "%1$s is <strong>deprecated</strong> since version %2$s with no alternative "
