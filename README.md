@@ -13,7 +13,7 @@ To create translation files:
 
 To check your translation file and load it in YOURLS:
 
-1. Download a nightly build or update via SVN. [Read this](http://code.google.com/p/yourls/wiki/InstallFromSVN)
+1. Download a nightly build or update via SVN. [Read this](https://github.com/YOURLS/YOURLS/wiki/Install-From-Git)
 2. Drop your `pt_BR.po` and `pt_BR.mo` files in `user/languages`
 3. Add `define( 'YOURLS_LANG', 'pt_BR' )` to your `config.php`
 4. That’s it! Play with YOURLS to check everything is fine
