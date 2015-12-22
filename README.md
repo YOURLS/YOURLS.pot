@@ -47,5 +47,3 @@ See http://yourls.org/translations
 
 #### License
 Do whatever the hell you want with it.
-
-[![githalytics.com alpha](https://cruel-carlota.pagodabox.com/51e281a952f55ec59467afad65496246 "githalytics.com")](http://githalytics.com/YOURLS/YOURLS.pot)
