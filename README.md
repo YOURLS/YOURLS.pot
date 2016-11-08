@@ -13,7 +13,7 @@ To create translation files:
 
 To check your translation file and load it in YOURLS:
 
-1. Download a nightly build or update via SVN. [Read this](https://github.com/YOURLS/YOURLS/wiki/Install-From-Git)
+1. Download latest version, of current master, or update with Git. [Read this](https://github.com/YOURLS/YOURLS/wiki/Install-From-Git)
 2. Drop your `pt_BR.po` and `pt_BR.mo` files in `user/languages`
 3. Add `define( 'YOURLS_LANG', 'pt_BR' )` to your `config.php`
 4. That’s it! Play with YOURLS to check everything is fine
@@ -47,5 +47,3 @@ See http://yourls.org/translations
 
 #### License
 Do whatever the hell you want with it.
-
-[![githalytics.com alpha](https://cruel-carlota.pagodabox.com/51e281a952f55ec59467afad65496246 "githalytics.com")](http://githalytics.com/YOURLS/YOURLS.pot)
