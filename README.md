@@ -33,7 +33,7 @@ When the `YOURLS.pot` template file is updated with new or modified strings to t
 When your translation file is all fine, make sure others can benefit from you hard work!
 
 1. Upload your two `PO` and `MO` files somewhere on the interweb.  
-It's best to use a *source control service*, such as Google Code or Github: this will make your changes easy to track, your files easy to maintain, and others' contributions easy to implement. If you don’t want to use SVN or Git, a regular hosting (your blog) will be OK  
+It's best to use a *source control service*, such as Github or GitLab: this will make your changes easy to track, your files easy to maintain, and others' contributions easy to implement. If you don’t want to use SVN or Git, a regular hosting (your blog) will be OK  
 2. Make it clear for users: a directory with clearly labelled files (`yourls-1.6-pt_BR.zip` for instance) so they know what to pick.  
 3. Ping us! Open a [new issue](https://github.com/YOURLS/YOURLS.pot/issues) here and tell us where your translation lives so we can add it to the [list of available languages](http://yourls.org/translations)   
 
