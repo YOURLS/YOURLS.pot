@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: YOURLS 1.7\n"
 "POT-Creation-Date: 2014-01-11 11:50+0100\n"
 "PO-Revision-Date: 2014-01-11 11:51+0100\n"
-"Last-Translator: Ozh <ozh[at]ozh.org>\n"
+"Last-Translator: Ümit Solmaz <ileti[at]netiz.net>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -26,23 +26,23 @@ msgstr ""
 #: admin/index.php:93 includes/functions-html.php:209
 #: includes/functions-html.php:221 includes/functions-html.php:464
 #: includes/functions-html.php:626
-msgid "Short URL"
+msgid "Kısa URL"
 msgstr ""
 
 #: yourls-infos.php:227
-msgid "Aggregate stats for duplicate short URLs"
+msgid "Yinelenen kısa URL'ler için toplam istatistikler"
 msgstr ""
 
 #: yourls-infos.php:229 includes/functions-html.php:464
-msgid "Long URL"
+msgid "Uzun URL"
 msgstr ""
 
 #: yourls-infos.php:235 yourls-infos.php:246
-msgid "Traffic statistics"
+msgid "Trafik İstatistikleri"
 msgstr ""
 
 #: yourls-infos.php:236 yourls-infos.php:432
-msgid "Traffic location"
+msgid "Traffic yer"
 msgstr ""
 
 #: yourls-infos.php:237 yourls-infos.php:469
