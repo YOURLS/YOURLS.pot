@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: YOURLS 1.7\n"
 "POT-Creation-Date: 2014-01-11 11:50+0100\n"
-"PO-Revision-Date: 2014-01-11 11:51+0100\n"
+"PO-Revision-Date: 2018-04-12 11:51+0100\n"
 "Last-Translator: Ümit Solmaz <ileti[at]netiz.net>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #: yourls-infos.php:204
 #, php-format
-msgid "Statistics for %s"
+msgid "için istatistikler %s"
 msgstr ""
 
 #: yourls-infos.php:211 admin/index.php:15 admin/index.php:34
@@ -42,7 +42,7 @@ msgid "Trafik İstatistikleri"
 msgstr ""
 
 #: yourls-infos.php:236 yourls-infos.php:432
-msgid "Traffic yer"
+msgid "Trafik yıl"
 msgstr ""
 
 #: yourls-infos.php:237 yourls-infos.php:469
@@ -51,7 +51,7 @@ msgstr ""
 
 #: yourls-infos.php:239 yourls-infos.php:539 includes/functions-html.php:505
 #: includes/functions-html.php:506
-msgid "Share"
+msgid "Paylaş"
 msgstr ""
 
 #: yourls-infos.php:254 yourls-infos.php:294
@@ -59,153 +59,153 @@ msgid "Last 24 hours"
 msgstr ""
 
 #: yourls-infos.php:255 yourls-infos.php:296
-msgid "Last 7 days"
+msgid "Son 7 gün"
 msgstr ""
 
 #: yourls-infos.php:256 yourls-infos.php:298
-msgid "Last 30 days"
+msgid "Son 30 gün"
 msgstr ""
 
 #: yourls-infos.php:257 yourls-infos.php:300
-msgid "All time"
+msgid "Her zman"
 msgstr ""
 
 #: yourls-infos.php:309
 #, php-format
-msgid "Number of hits : %s"
+msgid "İsabet sayısı : %s"
 msgstr ""
 
 #: yourls-infos.php:332
-msgid "Historical click count"
+msgid "Geçmiş tıklama sayısı"
 msgstr ""
 
 #: yourls-infos.php:338
 #, php-format
-msgid "about 1 day ago"
-msgid_plural "about %s days ago"
+msgid "yaklaşık 1 gün önce"
+msgid_plural "yaklaşık %s gün önce"
 msgstr[0] ""
 msgstr[1] ""
 
 #. //translators: eg Short URL created on March 23rd 1972
 #: yourls-infos.php:341
 #, php-format
-msgid "Short URL created on %s"
+msgid "Kısa URL %s oluşturuldu"
 msgstr ""
 
 #: yourls-infos.php:356 yourls-infos.php:363
 #, php-format
-msgid "%s per day"
+msgid "%s günlük"
 msgstr ""
 
 #: yourls-infos.php:359
 #, php-format
-msgid "%s per hour"
+msgid "%s saat başı"
 msgstr ""
 
 #: yourls-infos.php:366
 #, php-format
 msgid "%s hit"
-msgid_plural "%s hits"
+msgid_plural "%s isabet"
 msgstr[0] ""
 msgstr[1] ""
 
 #: yourls-infos.php:373
-msgid "Best day"
+msgid "En iyi gün"
 msgstr ""
 
 #. //translators: eg. 43 hits on January 1, 1970
 #: yourls-infos.php:380
 #, php-format
-msgid "<strong>%1$s</strong> hit on %2$s"
-msgid_plural "<strong>%1$s</strong> hits on %2$s"
+msgid "<strong>%1$s</strong> isabet %2$s"
+msgid_plural "<strong>%1$s</strong> isabet %2$s"
 msgstr[0] ""
 msgstr[1] ""
 
 #: yourls-infos.php:381 yourls-infos.php:443
-msgid "Click for more details"
+msgid "Daha fazla bilgi için tıklayın"
 msgstr ""
 
 #: yourls-infos.php:387 yourls-infos.php:390
 #, php-format
-msgid "Year %s"
+msgid "Yıl %s"
 msgstr ""
 
 #: yourls-infos.php:409 yourls-infos.php:447
 #, php-format
-msgid "1 hit"
-msgid_plural "%s hits"
+msgid "1 isabet"
+msgid_plural "%s isabet"
 msgstr[0] ""
 msgstr[1] ""
 
 #: yourls-infos.php:426
-msgid "No traffic yet. Get some clicks first!"
+msgid "Henüz trafik yok. İlk önce bazı tıklamalar alın!"
 msgstr ""
 
 #: yourls-infos.php:441
-msgid "Top 5 countries"
+msgid "İlk 5 ülke"
 msgstr ""
 
 #: yourls-infos.php:454
-msgid "Overall traffic"
+msgid "Genel trafik"
 msgstr ""
 
 #: yourls-infos.php:463
-msgid "No country data."
+msgid "Ülke bilgisi yok."
 msgstr ""
 
 #: yourls-infos.php:478
-msgid "Referrer shares"
+msgid "Yönlendiren paylaşımları"
 msgstr ""
 
 #: yourls-infos.php:481
-msgid "Others"
+msgid "Diğerleri"
 msgstr ""
 
 #: yourls-infos.php:485 yourls-infos.php:518
-msgid "Referrers"
+msgid "Başvuran"
 msgstr ""
 
 #: yourls-infos.php:492 yourls-infos.php:502
-msgid "(details)"
+msgid "(detay)"
 msgstr ""
 
 #: yourls-infos.php:502
-msgid "Various:"
+msgid "Çeşitli:"
 msgstr ""
 
 #: yourls-infos.php:516
-msgid "Direct vs Referrer Traffic"
+msgid "Doğrudan Yönlendirilen Trafik"
 msgstr ""
 
 #: yourls-infos.php:518
-msgid "Direct"
+msgid "Doğrudan"
 msgstr ""
 
 #: yourls-infos.php:520
-msgid "Direct traffic:"
+msgid "Doğrudan Trafik:"
 msgstr ""
 
 #: yourls-infos.php:520 yourls-infos.php:521
 #, php-format
-msgid "<strong>%s</strong> hit"
-msgid_plural "<strong>%s</strong> hits"
+msgid "<strong>%s</strong> isabet"
+msgid_plural "<strong>%s</strong> isabet"
 msgstr[0] ""
 msgstr[1] ""
 
 #: yourls-infos.php:521
-msgid "Referrer traffic:"
+msgid "Yönlendirilen trafik:"
 msgstr ""
 
 #: yourls-infos.php:530
-msgid "No referrer data."
+msgid "Yönlendirilen veri yok."
 msgstr ""
 
 #: yourls-infos.php:541
-msgid "Short link"
+msgid "Kısa bağlantı"
 msgstr ""
 
 #: yourls-infos.php:541 includes/functions-html.php:359
-msgid "Quick Share"
+msgid "Hızlı paylaşım"
 msgstr ""
 
 #: admin/index.php:13 admin/index.php:38 admin/index.php:97
@@ -215,31 +215,31 @@ msgstr ""
 
 #: admin/index.php:42 includes/functions-html.php:211
 #: includes/functions-html.php:464
-msgid "Title"
+msgid "Başlık"
 msgstr ""
 
 #: admin/index.php:46 admin/index.php:105
-msgid "IP Address"
+msgid "IP Adres"
 msgstr ""
 
 #: admin/index.php:50
 #, php-format
-msgid "Searching for <strong>%1$s</strong> in <strong>%2$s</strong>."
+msgid "içinde <strong>%1$s</strong> aranıyor <strong>%2$s</strong>."
 msgstr ""
 
 #: admin/index.php:101 includes/functions-html.php:223
 #: includes/functions-html.php:628
-msgid "Date"
+msgid "Tarih"
 msgstr ""
 
 #: admin/index.php:109 includes/functions-html.php:225
 #: includes/functions-html.php:630
-msgid "Clicks"
+msgid "Tıklama"
 msgstr ""
 
 #: admin/index.php:187 admin/index.php:198 admin/index.php:209
 #, php-format
-msgid "Short URL created, but could not redirect to %s !"
+msgid "Kısa URL oluşturuldu, %s fakat yönlendirilemedi !"
 msgstr ""
 
 #: admin/index.php:219
@@ -277,7 +277,7 @@ msgid "%s version is too old. Ask your server admin for an upgrade."
 msgstr ""
 
 #: admin/install.php:24
-msgid "YOURLS already installed."
+msgid "YOURLS zaten yüklü."
 msgstr ""
 
 #: admin/install.php:35
@@ -295,7 +295,7 @@ msgid "Install YOURLS"
 msgstr ""
 
 #: admin/install.php:74
-msgid "YOURLS Administration Page"
+msgid "YOURLS Yönetim Sayfası"
 msgstr ""
 
 #: admin/plugins.php:38
