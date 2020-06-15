@@ -1,6 +1,9 @@
 # YOURLS .POT FILE FOR TRANSLATIONS
 
-This is the official YOURLS .pot file to generate and maintain your own translations.
+This is the corrected version of YOURLS.pot file for YOURLS v1.7.9 (and possibly earlier 1.7.x versions).
+
+  * All incorrect references (line numbers) to the lines in the YOURLS files that contain translatable content have been corrected.
+  * In addition, missing references have been added and some text passages for understanding have been expanded.
 
 ## Awesome! How do I create my own translations?
 
