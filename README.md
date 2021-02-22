@@ -1,19 +1,19 @@
-# YOURLS .POT FILE FOR TRANSLATIONS
+# YOURLS `.POT` [<img src="https://github.com/YOURLS/YOURLS/raw/master/images/yourls-logo.svg" alt="YOURLS Logo" align="right" height="120">](https://github.com/YOURLS/YOURLS.pot)
 
-This is the official YOURLS .pot file to generate and maintain your own translations.
+This is the official YOURLS `.pot` file to generate and maintain your own translations.
 
 ## Awesome! How do I create my own translations?
 
-To create translation files:
+### To create your translation :
 
-1. Download the translation file template `YOURLS.pot`  
+1. Download the translation file template `YOURLS.pot`
 2. Rename it to `[your-locale].po`, where `[your-locale]` is typically `language code, underscore, country code` (for instance in Portugal that would be `pt_PT`, while in Brazil it’d be `pt_BR`).  
 3. Install a translation software: it’s nothing more than a text editor capable of reading `.po` files, showing you the untranslated string and a text box where you type in the translation, and saving a `.mo` file which is what PHP needs. A cross platform, simple yet complete editor is [Poedit](http://www.poedit.net/).  
 4. Translate all the strings. You'll have a fully translated `pt_BR.po` and the generated `pt_BR.mo`
 
-To check your translation file and load it in YOURLS:
+### To check your translation and load it in YOURLS:
 
-1. Download latest version, of current master, or update with Git. [Read this](https://github.com/YOURLS/YOURLS/wiki/Install-From-Git)
+1. Install the latest [YOURLS release](https://github.com/YOURLS/YOURLS/releases)
 2. Drop your `pt_BR.po` and `pt_BR.mo` files in `user/languages`
 3. Add `define( 'YOURLS_LANG', 'pt_BR' )` to your `config.php`
 4. That’s it! Play with YOURLS to check everything is fine
@@ -42,8 +42,8 @@ It's best to use a *source control service*, such as Github or GitLab: this will
 See https://github.com/YOURLS/awesome-yourls
 
 
-#### Thanks to
-[LeoColomb](https://github.com/LeoColomb) - L10n was a low priority feature but he threw his patch at my face :)
+## Credits and license
 
-#### License
-Do whatever the hell you want with it.
+Thanks to [LeoColomb](https://github.com/LeoColomb) - L10n was a low priority feature but he threw his patch at my face :)
+
+License is "Do whatever the hell you want with it".
