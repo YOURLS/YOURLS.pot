@@ -1,4 +1,4 @@
-# YOURLS `.POT` [<img src="https://github.com/YOURLS/YOURLS/raw/master/images/yourls-logo.svg" alt="YOURLS Logo" align="right" height="120">](https://github.com/YOURLS/YOURLS.pot)
+# YOURLS `.POT` [![Listed in Awesome YOURLS!](https://img.shields.io/badge/Awesome-YOURLS-C5A3BE)](https://github.com/YOURLS/awesome-yourls/) [<img src="https://github.com/YOURLS/YOURLS/raw/master/images/yourls-logo.svg" alt="YOURLS Logo" align="right" height="120">](https://github.com/YOURLS/YOURLS.pot)
 
 This is the official YOURLS `.pot` file to generate and maintain your own translations.
 
