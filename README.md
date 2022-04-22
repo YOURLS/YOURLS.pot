@@ -2,9 +2,9 @@
 
 This is the official YOURLS `.pot` file to generate and maintain your own translations.
 
-> **Current version** : for **YOURLS 1.8**
+> **Current version** : for **YOURLS 1.9**
 > 
-(Check the [release archives](https://github.com/YOURLS/YOURLS.pot/releases) for older versions)
+> (Check the [release archives](https://github.com/YOURLS/YOURLS.pot/releases) for older versions)
 
 ## Awesome! How do I create my own translations?
 
@@ -44,7 +44,6 @@ It's best to use a *source control service*, such as Github or GitLab: this will
 ## What are the available languages already?
 
 See https://github.com/YOURLS/awesome-yourls
-
 
 ## Credits and license
 
